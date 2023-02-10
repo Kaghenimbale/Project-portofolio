@@ -450,14 +450,16 @@ section h2 {
 }
 
 .input {
-  width: 81vw;
+  width: 84vw;
   padding: 1rem 0.5rem;
   border: none;
   margin-bottom: 1.5rem;
+  color: black;
+  font-size: 1.2rem;
 }
 
 .input::placeholder {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .input-area {
@@ -465,11 +467,13 @@ section h2 {
   height: 20vh;
   border: none;
   margin-bottom: 1.5rem;
+  color: black;
+  padding: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .input-area::placeholder {
-  font-size: 1rem;
-  padding: 0.6rem;
+  font-size: 1.2rem;
 }
 
 .submit {
@@ -519,6 +523,7 @@ form {
 
   h1 {
     font-size: 3rem;
+    width: 50vw;
   }
 
   .nav-bar {
@@ -566,7 +571,7 @@ form {
   }
 
   .container {
-    width: calc(100vw - 270px);
+    width: calc(100vw - 300px);
     top: 4rem;
     left: 10rem;
     right: 10rem;
@@ -586,7 +591,7 @@ form {
   }
 
   .input {
-    width: 35vw;
+    width: 37vw;
   }
 
   .input-area {
